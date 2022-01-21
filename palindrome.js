@@ -3,7 +3,7 @@ function palindrome(str) {
     const lowerCase = newStr.toLowerCase();
 
     const array = lowerCase.split('');
-    if (transformedStr.length % 2 !== 0) {
+    if (newStr.length % 2 !== 0) {
         array.splice(Math.floor(array.length / 2), 1);
     }
     const half = array.length / 2;
